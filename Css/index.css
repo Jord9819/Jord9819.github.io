@@ -1,0 +1,87 @@
+body{
+    margin: 0%;
+    border: 0%;
+    background-image: linear-gradient(45deg,rgb(133, 133, 236), white);
+    height: 60vh !important;
+    background: url(img/FF.jpg)no-repeat center;
+    background-size: cover;
+    
+}
+.name{
+    width: 100%;
+    height: 300px;
+    height: 60vh !important;
+    background: url(img/fondo.jpg)no-repeat center;
+    background-size: cover;
+}
+.name .content{
+    width: 80% ;
+    height: 50%;
+    position: absolute;
+    left: 18%;
+    
+}
+.name .content .nombrep1{
+    color: rgb(21, 170, 250);
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    
+}
+.name .content .Edadp2{
+    color: rgb(7, 2, 84);
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.informacion{
+    text-align: justify;
+    font-family: 'Abril Fatface', cursive;
+    
+}
+.sobre {
+    font-size: 45px;
+    background: linear-gradient(#1497be, #1c2aec);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: text 5s linear infinite;
+    text-align: justify;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    
+}
+@keyframes text{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.lista{
+    margin-left: 2%;
+    font-family: 'Abril Fatface', cursive;
+}
+.habilidades{
+    width: 100%;
+    height: 250px;
+    height: 60vh !important;
+    background: url(img/1.jpg)no-repeat center;
+    background-size: cover;
+}
+
+
+.contact .contactos {
+    margin-left: 2%;
+    font-family: 'Abril Fatface', cursive;
+    
+    
+}
+.contact{
+     width: 100%;
+    height: 310px;
+    background: #e6e7fe;}
+.contactos i{
+        color: blue;
+    }
