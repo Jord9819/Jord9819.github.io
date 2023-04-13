@@ -1,43 +1,51 @@
 body{
     margin: 0%;
     border: 0%;
-    background-image: linear-gradient(45deg,rgb(133, 133, 236), white);
-    height: 60vh !important;
-    background: url(img/FF.jpg)no-repeat center;
-    background-size: cover;
+    background: #ffffff;
+    
     
 }
+
 .name{
     width: 100%;
-    height: 300px;
-    height: 60vh !important;
-    background: url(img/fondo.jpg)no-repeat center;
-    background-size: cover;
+    height: 400px;
+    height: 30vh !important;
+    background-color: #06035a;
+    
+
 }
+.img {
+    text-align: left;
+    
+}
+
+
 .name .content{
     width: 80% ;
-    height: 50%;
+    height: 70%;
     position: absolute;
     left: 18%;
     
 }
 .name .content .nombrep1{
-    color: rgb(21, 170, 250);
-    font-family: 'Abril Fatface', cursive;
+    color: rgb(245, 246, 247);
+    font-family: 'Roboto Slab', serif;
     font-weight: bolder;
     font-size: 50px;
+    text-align: justify;
     
 }
-.name .content .Edadp2{
-    color: rgb(7, 2, 84);
-    font-family: 'Abril Fatface', cursive;
-    font-weight: bolder;
-    font-size: 15px;
-}
+
+
 .informacion{
     text-align: justify;
-    font-family: 'Abril Fatface', cursive;
-    
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+}
+.bio {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
 }
 .sobre {
     font-size: 45px;
@@ -47,7 +55,7 @@ body{
     -webkit-background-clip: text;
     animation: text 5s linear infinite;
     text-align: justify;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Roboto Slab', serif;
     text-align: center;
     
 }
@@ -61,13 +69,14 @@ body{
 }
 .lista{
     margin-left: 2%;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
 }
 .habilidades{
     width: 100%;
     height: 250px;
     height: 60vh !important;
-    background: url(img/1.jpg)no-repeat center;
+    background: url(img/lu.jpg)no-repeat center;
     background-size: cover;
 }
 
@@ -81,7 +90,70 @@ body{
 .contact{
      width: 100%;
     height: 310px;
-    background: #e6e7fe;}
+    background: #040239;}
 .contactos i{
-        color: blue;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
     }
+.jor {
+    text-align: center;
+   
+}
+.izquierda {
+    background: url(img/estudios.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+.derecha {
+    background: #ebf8fc;
+    height: 100vh;
+    width: 50%;
+}
+#pantalla-dividida {
+    display: flex;
+}
+.ct {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+}
+.contactos {
+    color: white;
+    text-align: center;
+    display: inline-flex;
+    
+}
+.left {
+    background: #ffffff;
+    height: 100vh;
+    width: 50%;
+    
+
+}
+.right {
+    background: url(img/collage.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 100vh;
+    
+   
+}
+.letras {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.encuentrame {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    color: white;
+}
+.lit {
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+
+}
