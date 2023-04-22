@@ -3052,7 +3052,6 @@ td:last-child {
     position        : absolute;
     top             : min(var(--vspace-0_75), 4vh);
     left            : 0;
-    color: #fefffe;
 }
 
 .s-header.offset {
@@ -3125,6 +3124,7 @@ td:last-child {
     width         : var(--logo-width);
     margin        : 0;
     vertical-align: bottom;
+    color: white;
 }
 
 /* --------------------------------------------------------------------
